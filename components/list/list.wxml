@@ -1,7 +1,7 @@
 <!--components/list/list.wxml-->
 <wxs src="./utils.wxs" module="utils" />
 
-<block wx:for="{{data}}" key="{{index}}">
+<block wx:for="{{data}}" wx:key="{{index}}">
   <view class="item-content-view">
     <view class="item-view">
       <text class="text">{{utils.splitStr(item.ymd + '', '-')[1] + '-' + utils.splitStr(item.ymd + '', '-')[2]}}</text>
