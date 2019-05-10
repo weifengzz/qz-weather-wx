@@ -14,7 +14,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.6.6",
-	"appid": "wxae7f7ccb9cb869df",
+	"appid": "",
 	"projectname": "qzweatherWX",
 	"debugOptions": {
 		"hidedInDevtools": []
