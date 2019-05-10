@@ -1,0 +1,7 @@
+/**index.wxss**/
+page {
+  height: 100%;
+  display: flex;
+  background-color: #45a2d4;
+  width: 100%;
+}

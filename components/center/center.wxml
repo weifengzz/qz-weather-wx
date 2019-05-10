@@ -1,0 +1,17 @@
+<!--components/center/center.wxml-->
+<wxs src="./utils.wxs" module="utils" />
+<view class="content">
+  <view class="left-view">
+    <image class="image" src="../../assets/images/weather.jpg" />
+  </view>
+  <view class="right-view">
+    <view class="msg-view">
+      <text class="large-text">{{data.data.wendu}}</text>
+      <text class="small-text">{{data.data.forecast[0].type}}</text>
+      <text class="small-text">{{utils.splitStr(data.time + '', ' ')[1]+' 发布'}}</text>
+    </view>
+    <view class="wendu-view">
+      <text class="middle-text">℃</text>
+    </view>
+  </view>
+</view>

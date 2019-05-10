@@ -1,0 +1,17 @@
+<!--components/list/list.wxml-->
+<wxs src="./utils.wxs" module="utils" />
+
+<block wx:for="{{data}}" key="{{index}}">
+  <view class="item-content-view">
+    <view class="item-view">
+      <text class="text">{{utils.splitStr(item.ymd + '', '-')[1] + '-' + utils.splitStr(item.ymd + '', '-')[2]}}</text>
+      <text class="text" style="margin-left: 40rpx">{{item.week}}</text>
+    </view>
+    <image class="image" src="../../assets/images/weather.jpg" />
+    <view class="item-view" style="justify-content: flex-end;">
+      <text class="text">{{utils.splitStr(item.low, ' ')[1]}}</text>
+      <text class="text"> / </text>
+      <text class="text">{{utils.splitStr(item.high, ' ')[1]}}</text>
+    </view>
+  </view>
+</block>

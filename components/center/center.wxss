@@ -1,0 +1,62 @@
+/* components/center/center.wxss */
+.content {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.image {
+  margin-top: 40rpx;
+  height: 300rpx;
+  width: 330rpx;
+}
+
+.left-view {
+  flex: 1;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-view {
+  height: 100%;
+  padding: 0rpx 50rpx;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.msg-view {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.large-text {
+  font-size: 180rpx;
+  color: white;
+  font-weight: bold;
+}
+
+.small-text {
+  font-size: 30rpx;
+  color: white;
+}
+
+.wendu-view {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-bottom: 200rpx;
+  margin-left: 30rpx;
+}
+
+.middle-text {
+  font-size: 60rpx;
+  color: white;
+  font-weight: bold;
+}

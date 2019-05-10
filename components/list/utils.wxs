@@ -1,0 +1,8 @@
+/**
+ * 截取字符串
+ */
+function splitStr(str, key) {
+  return str.split(key)
+}
+
+module.exports.splitStr = splitStr

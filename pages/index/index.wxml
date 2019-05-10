@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <header />
+  <center data="{{data}}" />
+  <list data="{{data.data.forecast}}" />
+</view>

@@ -1,0 +1,12 @@
+/* components/header/header.wxss */
+.title-text {
+  font-size: 30rpx;
+  color: white;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
